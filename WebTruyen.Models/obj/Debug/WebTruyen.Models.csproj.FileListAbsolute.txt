@@ -1,0 +1,10 @@
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\bin\Debug\WebTruyen.Models.dll
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\bin\Debug\WebTruyen.Models.pdb
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\obj\Debug\WebTruyen.Models.csprojAssemblyReference.cache
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\obj\Debug\WebTruyen.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\obj\Debug\WebTruyen.Models.csproj.CopyComplete
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\obj\Debug\WebTruyen.Models.dll
+C:\Users\Jbed\Desktop\WebTruyen\WebTruyen.Models\obj\Debug\WebTruyen.Models.pdb
