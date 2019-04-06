@@ -1,0 +1,43 @@
+﻿.darkBox {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px;
+    clear: right;
+    margin-bottom: 15px;
+}
+
+    .darkBox h2 {
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 10px;
+        font-weight: 400;
+        color: #2980b9;
+    }
+
+    .darkBox ul {
+        padding-left: 0;
+        margin: 0;
+    }
+
+.genres ul li:first-child {
+    float: none;
+    width: 100%;
+}
+
+.genres ul li {
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+
+.darkBox ul li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid #dedede;
+}
+
+.nav > li, .nav > li > a {
+    display: block;
+    position: relative;
+}

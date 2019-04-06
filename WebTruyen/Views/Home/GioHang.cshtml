@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "GioHang";
+}
+@Styles.Render("~Content/GioHangStyle.css")
+@Styles.Render("~/Content/indexStyle.css")
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container" id="contact-info" style="background-color: #f3f3f3;">
+    <ul class="list-unstyled">
+        <li style="margin-left: 5%" id="contact-li-left"><i class="glyphicon glyphicon-phone">&ensp;</i>Thông tin liên hệ</li>
+        <li><i class="glyphicon glyphicon-book">&ensp;</i>Email liên hệ</li>
+        <li style="float: right; margin-right: 5%;"><a href="DangNhap"><i class="glyphicon glyphicon-log-in">&ensp;</i>Đăng nhập</a></li>
+        <li style="float: right;" id="contact-li-right"><a href="#"><i class="glyphicon glyphicon-plus-sign">&ensp;</i>Đăng kí</a></li>
+    </ul>
+</div>
+
+<div class="container" id="logo-search-info" style="background-color: #ffffff;">
+    <div class="row">
+        <div class="col-md-4" style="padding-left: 6%;"><span style="color: #337ab7;">MANGA<span style="color: #d63031;">STORE</span>.COM</span></div>
+        <div class="col-md-5" id="search-info">
+
+            <input type="text" placeholder="Nhập tên truyện cần tìm kiếm..." />
+            <img src="~/Images/search1.png" style="margin-left: -50px;" />
+        </div>
+        <div class="col-md-3" id="shopping-info" style="position: relative; margin-top: -10px;">
+            <a href="GioHang" style="text-decoration: none;">
+                <i class="glyphicon glyphicon-shopping-cart"></i>
+                <span>GIỎ HÀNG</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <nav class="navbar" id="navigation-bar">
+            <div class="navbar-header">
+                <a href="Index" class="navbar-brand">TRANG CHỦ</a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">TRUYỆN HOT</a></li>
+                    <li><a href="TimTruyen">THỂ LOẠI</a></li>
+                    <li><a href="#">XẾP HẠNG</a></li>
+                    <li><a href="#">TRÒ CHUYỆN</a></li>
+                    <li><a href="#">GÓP Ý</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container"  style="background-color: #ffffff; padding-bottom: 20px; border: 1px solid #bdc3c7;">
+    <h3>Giỏ hàng</h3>
+    <hr />
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width:50%">Tên Truyện</th>
+                    <th style="width:10%">Gía</th>
+                    <th style="width:22%" class="text-center">Thành tiền</th>
+                    <th style="width:10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img width="100px" height="100px" src="~/Images/naruto-tap1.jpg" alt="..." class="img-responsive" /></div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Naruto</h4>
+                                <p>Naruto là loạt manga Nhật Bản bằng văn bản và minh họa bởi tác giả Kishimoto Masashi, đã được dựng thành anime</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">20,000 đ</td>
+                    <td data-th="Subtotal" class="text-center">20,000 đ</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="visible-xs">
+                    <td class="text-center"><strong>Total 1.99</strong></td>
+                </tr>
+                <tr>
+                    <td><a href="Index" class="btn btn-warning"><i class="fa fa-angle-left"></i> Trở về trang chủ</a></td>
+                    <td colspan="2" class="hidden-xs"></td>
+                    <td class="hidden-xs text-center"><strong>Tổng cộng 20,000 đ</strong></td>
+                    <td><a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>

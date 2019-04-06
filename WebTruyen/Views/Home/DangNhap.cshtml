@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Đăng nhập";
+}
+@Styles.Render("~/Content/indexStyle.css")
+<div class="container" id="contact-info" style="background-color: #f3f3f3;">
+    <ul class="list-unstyled">
+        <li style="margin-left: 5%" id="contact-li-left"><i class="glyphicon glyphicon-phone">&ensp;</i>Thông tin liên hệ</li>
+        <li><i class="glyphicon glyphicon-book">&ensp;</i>Email liên hệ</li>
+        <li style="float: right; margin-right: 5%;"><a href="DangNhap"><i class="glyphicon glyphicon-log-in">&ensp;</i>Đăng nhập</a></li>
+        <li style="float: right;" id="contact-li-right"><a href="#"><i class="glyphicon glyphicon-plus-sign">&ensp;</i>Đăng kí</a></li>
+    </ul>
+</div>
+
+<div class="container" id="logo-search-info" style="background-color: #ffffff;">
+    <div class="row">
+        <div class="col-md-4" style="padding-left: 6%;"><span style="color: #337ab7;">MANGA<span style="color: #d63031;">STORE</span>.COM</span></div>
+        <div class="col-md-5" id="search-info">
+
+            <input type="text" placeholder="Nhập tên truyện cần tìm kiếm..." />
+            <img src="~/Images/search1.png" style="margin-left: -50px;" />
+        </div>
+        <div class="col-md-3" id="shopping-info" style="position: relative; margin-top: -10px;">
+            <a href="GioHang" style="text-decoration: none;">
+                <i class="glyphicon glyphicon-shopping-cart"></i>
+                <span>GIỎ HÀNG</span>
+            </a>
+        </div>
+    </div>s
+</div>
+
+<div class="container">
+    <div class="row">
+        <nav class="navbar" id="navigation-bar">
+            <div class="navbar-header">
+                <a href="Index" class="navbar-brand">TRANG CHỦ</a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">TRUYỆN HOT</a></li>
+                    <li><a href="TimTruyen">THỂ LOẠI</a></li>
+                    <li><a href="#">XẾP HẠNG</a></li>
+                    <li><a href="#">TRÒ CHUYỆN</a></li>
+                    <li><a href="#">GÓP Ý</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<style>
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+</style>
+<div class="container"  style="background-color: #ffffff; padding-bottom: 20px; border: 1px solid #bdc3c7;"  >
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 col-centered" style="padding-top:20px">
+            <div class="jumbotron">
+                <h3>Đăng nhập</h3>
+                <form action="Dashboard.jsp">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Tài khoản">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                    </div>
+                    <div class="custom-checkbox">
+                        <label><input type="checkbox">Lưu tài khoản</label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-success form-control">Đăng nhập</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary form-control">Đăng nhập với Facebook</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
